@@ -1,0 +1,39 @@
+/* 整个body样式 */
+body {
+  background-image: url("../assets/images/myProfile.jpg");
+  /* 背景图覆盖整个网页 */
+  background-position: center;
+  background-size: cover;
+  opacity: 0.7;
+  background-repeat: no-repeat;
+}
+
+/* 顶部底部bar的统一样式 */
+
+
+
+
+
+
+.main-container>:first-child {
+    /* 给第一个孩子添加一个边框 */
+    border-top: red solid 1px;
+}
+
+.main-container>:last-child {
+    border-bottom: red solid 1px;
+}
+
+/* main-container的奇数元素设置 */
+.main-container>:nth-child(odd) {
+  background-color: lightskyblue;
+}
+/* main-container的偶数元素设置 */
+.main-container>:nth-child(even) {
+  background-color: lightsalmon;
+}
+
+/* main-container所有子元素左右填充 */
+.main-container>* {
+    padding: 0 0 0 10px;
+}

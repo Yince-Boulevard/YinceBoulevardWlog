@@ -1,0 +1,82 @@
+/* * {
+    border: 1px solid;
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #eee;
+    background-image: url('../assets/images/myProfile.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
+}
+
+
+
+.flex {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    z-index: 2;
+}
+
+.baiSe {
+    background-color: #ccc;
+    box-shadow: black 0 0 10px;
+}
+
+.flex1 {
+    flex: 1;
+}
+
+.flex3 {
+    flex: 3;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.header {
+    height: 60px;
+    z-index: 1;
+}
+
+.mg8 {
+    margin: 8px;
+}
+
+.mgr8 {
+    margin-right: 8px;
+}
+
+.mgl8 {
+    margin-left: 8px;
+}
+
+.mgt8 {
+    margin-top: 8px;
+}
+
+.container {
+    overflow: auto;
+}
+
+.nav {
+    padding: 10px 20px;
+    font-size: 14px;
+    border-bottom: 1px solid rgb(213, 41, 41);
+    color: #666;
+}
+
+.nav-bottom>a {
+    padding: 10px 20px;
+    font-size: 12px;
+    border-top: 1px solid rgb(213, 41, 41);
+    color: #666;
+}
+

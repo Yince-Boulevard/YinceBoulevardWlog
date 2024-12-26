@@ -1,0 +1,45 @@
+.navigator {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 40px;
+  font-size: 12px;
+}
+
+body {
+  margin: 0;
+}
+
+/* 主内容区的样式 */
+.main-container {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 15px;
+  line-height: 1.7;
+  background-color: #efefef;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+/* 尹子南路的头像样式 */
+.profile-picture {
+  width: 80px;
+  height: 80px;
+}
+
+.footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 40px;
+  font-size: 12px;
+}
+
+a {
+  /* 设置链接的样式 */
+  color: blue;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  display: inline-block;
+  padding-right: 10px;
+}

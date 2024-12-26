@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex 布局</title>
+    <link rel="stylesheet" href="../css/flex.css">
+    <link rel="stylesheet" href="../css/common.css">
+</head>
+
+<body class="flex">
+    <!-- 左侧边栏 -->
+    <div class="sidebar baiSe flex column">
+        <!-- 头像栏 -->
+        <div style="padding: 10px;align-items: center;justify-content: center;border-bottom: 2px solid #999;"
+            class="flex">
+            <img style="width: 50px;height: 40px;" src="../assets/images/myProfile.jpg" alt="尹子南路">
+            <div style="font-size: 12px;margin-left: 10px;">尹子南路</div>
+        </div>
+        <!-- 导航栏 -->
+        <div class="nav">导航</div>
+        <div class="nav">导航</div>
+        <div class="nav">导航</div>
+        <!-- 返回上一页，并且置底 -->
+         <div class="nav-bottom"><a href="../index.html">返回上一页</a></div>
+    </div>
+    <!-- 主区域(右) -->
+    <div class="flex flex1 column">
+        <!-- 头部栏 -->
+        <div class="header baiSe">
+            <div style="text-wrap: nowrap;">
+                <h1>欢迎来到尹子南路的个人空间</h1>
+            </div>
+        </div>
+        <!-- 内容区 -->
+        <div class="container flex flex1">
+            <!-- 左区 -->
+            <div class="flex flex3 column mg8">
+                <!-- 数据区 -->
+                <div class="flex">
+                    <div style="height: 100px;" class="baiSe flex1 mgr8"></div>
+                    <div style="height: 100px;" class="baiSe flex1 mgr8"></div>
+                    <div style="height: 100px;" class="baiSe flex1 mgr8"></div>
+                    <div style="height: 100px;" class="baiSe flex1"></div>
+                </div>
+                <!-- 列表区 -->
+                <div class="flex column">
+                    <!-- 列表项 -->
+                    <div style="height: 160px;" class="baiSe mgt8"></div>
+                    <div style="height: 160px;" class="baiSe mgt8"></div>
+                    <div style="height: 160px;" class="baiSe mgt8"></div>
+                </div>
+            </div>
+            <!-- 右区 -->
+            <div class="flex flex1 column mgr8 mgt8">
+                <!-- 提示区 -->
+                <div style="height: 150px;" class="baiSe"></div>
+                <!-- 消息区 -->
+                <div style="height: 300px;" class="baiSe mgt8"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
